@@ -36,9 +36,11 @@ def sanitize_metadata(raw_meta: dict) -> dict:
         if isinstance(v, list):
             clean[k] = [str(x) for x in v]
         # primitives allowed as-is
-        elif isinstance(v, (str, int, float, bool)):
+        elif isinstance(v, (str, int, bool)):
             clean[k] = v
-        # everything else -> string
+        elif isinstance(v, float):
+            clean[k] = float(v)  # ensure proper conversion
+
         else:
             clean[k] = str(v)
 
@@ -90,7 +92,7 @@ EMBEDDER = W2VEmbedder.load(W2V_MODEL_PATH)
 print("✅ Loaded Word2Vec model.")
 
 # connect / create Pinecone index
-INDEX = ensure_index_exists(PINE_API, PINE_ENV, INDEX_NAME, VECTOR_DIM)
+INDEX = ensure_index_exists(PINE_API, INDEX_NAME, VECTOR_DIM, PINE_ENV)
 print(f"✅ Connected to Pinecone index '{INDEX_NAME}'.")
 
 
