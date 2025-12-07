@@ -1,0 +1,29 @@
+{
+    "name": "Archisha Dhyani",
+    "age": 21,
+    "location": "Dehradun",
+    "role": "Student",
+    "domain": "Computer Science",
+    "skills": [
+        "Python",
+        "C++",
+        "Machine Learning",
+        "Project Management"
+    ],
+    "goals": [
+        "Collaboration",
+        "Find a Job",
+        "Learning"
+    ],
+    "experience": 2,
+    "offers": [
+        "Code/Design",
+        "Services"
+    ],
+    "needs": [
+        "Job",
+        "Collaborator"
+    ],
+    "availability": "Actively looking",
+    "portfolio": "no"
+}

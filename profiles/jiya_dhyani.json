@@ -1,0 +1,64 @@
+{
+    "name": "Jiya Dhyani",
+    "preferred_name": "Jiya",
+    "age": 21,
+    "location": "Dehradun",
+    "role": "Student",
+    "domain": "Computer Science",
+    "experience": 1,
+    "industry_experience": [
+        "Education",
+        "Fintech"
+    ],
+    "skills": [
+        "Python",
+        "Java",
+        "C++",
+        "SQL",
+        "Pandas",
+        "NumPy",
+        "Scikit-Learn",
+        "TensorFlow",
+        "PyTorch"
+    ],
+    "preferred_collaboration": "In-person",
+    "preferred_roles_in_projects": [
+        "ML Engineer",
+        "Data Analyst",
+        "Data Scientist",
+        "Product Manager"
+    ],
+    "availability_timeframe": [
+        "Weekends"
+    ],
+    "time_commitment_per_week": 20,
+    "email": "archisha@gmail.com",
+    "preferred_contact_method": "Email",
+    "linkedin": "none",
+    "github": "none",
+    "portfolio": "none",
+    "past_projects": [
+        "LogShieldAI | ML engineer | designed ML pipeline for detecting prompt injections",
+        "MOM_Generator| AIML| Genarte minutes of meetings",
+        "Wizard's Codex| Web Developer| Built mini games to explain ML Concepts"
+    ],
+    "languages_spoken": [
+        "English",
+        "Hindi",
+        "German"
+    ],
+    "certifications": [
+        "AWS Certified",
+        "BTech / BE"
+    ],
+    "offers": [
+        "Code/Design"
+    ],
+    "needs": [
+        "Job"
+    ],
+    "interests_hobbies": [
+        "Writing"
+    ],
+    "one_line_bio": "agsvaj aga"
+}
